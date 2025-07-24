@@ -3,10 +3,10 @@
     "main": "expo-router/entry",
     "version": "1.0.0",
     "scripts": {
-      "start": "bunx rork start -p kiwdi3w6wf89l8jhuapa1 --tunnel",
-      "start-web": "bunx rork start -p kiwdi3w6wf89l8jhuapa1 --web --tunnel",
-      "start-web-dev": "DEBUG=expo* bunx rork start -p kiwdi3w6wf89l8jhuapa1 --web --tunnel",
-      "dev": "bunx rork start -p kiwdi3w6wf89l8jhuapa1 --web --tunnel"
+      "start": "npx expo start",
+      "start-web": "npx expo start --web",
+      "start-web-dev": "DEBUG=expo* npx expo start --web",
+      "dev": "npx expo start --web"
     },
     "dependencies": {
       "@expo/vector-icons": "^14.1.0",
@@ -53,4 +53,3 @@
     },
     "private": true
   }
-  
